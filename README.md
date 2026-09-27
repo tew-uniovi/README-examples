@@ -1,20 +1,26 @@
 <p align="center">
-  <img src="https://github.com/TEWgijon/README-examples/blob/main/img/logo-epigijon.png" alt="EPI Gijón logo" width="200"/>
+  <img src="https://github.com/TEWgijon/README-examples/blob/main/img/logo-epigijon.png" alt="Logo EPI Gijón" width="200"/>
 </p>
 
-# University of Oviedo Web Technologies Resources
+# Recursos de Tecnologías Web — Universidad de Oviedo
 
-Welcome to the TEW README Examples repository. Here, you will find valuable resources to assist with your lab
-assignments.
+Bienvenido al repositorio de ejemplos de README de TEW. Aquí encontrarás recursos útiles para ayudarte con las
+prácticas de la asignatura.
 
-To use the provided examples, create an `/img` folder for the various media sources and copy the raw content of one of
-the templates into the root directory of your repository.
+Para usar los ejemplos proporcionados, crea una carpeta `/img` para los distintos recursos multimedia y copia el
+contenido en bruto de una de las plantillas en el directorio raíz de tu repositorio.
 
-Here are the different README examples available:
+Estos son los distintos ejemplos de README disponibles:
 
-- **[Example 1](docs/README-ex1.md)**
-- **[Example 2](docs/README-ex2.md)**
+- **[Ejemplo de backend](docs/README-backend.md)** — Práctica de Tecnologías de Servidor (arquitectura Spring Boot + microservicios, modelo de datos, endpoints de la API)
+- **[Ejemplo de frontend](docs/README-frontend.md)** — Práctica de Tecnologías de Cliente
 
 ---
 
-Feel free to explore the resources and contribute to improving the content!
+## ¿Tienes algún problema?
+
+Si encuentras un error o tienes alguna duda sobre estas plantillas, [**abre una issue**](https://github.com/TEWgijon/README-examples/issues/new).
+
+---
+
+¡Siéntete libre de explorar los recursos y contribuir a mejorar el contenido!
