@@ -1,0 +1,12 @@
+{
+  "name": "capturas-readme",
+  "private": true,
+  "type": "module",
+  "description": "Scripts para generar las capturas SVG (vectoriales) de los README",
+  "scripts": {
+    "capturas": "node capturar.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.1"
+  }
+}
