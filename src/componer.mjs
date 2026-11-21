@@ -5,7 +5,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { pathToFileURL } from "node:url";
 
-const FUENTE = "system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+export const FUENTE = "system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
 
 /** Tamaño en px (atributos width/height de la raíz) de un SVG generado por capturar.mjs. */
 const tamano = (svg) => {
@@ -14,7 +14,7 @@ const tamano = (svg) => {
 };
 
 /** Contenido de un SVG con sus id prefijados (para que no choquen al juntar varios en uno). */
-function incrustar(svg, prefijo, x, y, ancho, alto) {
+export function incrustar(svg, prefijo, x, y, ancho, alto) {
   const viewBox = /viewBox="([^"]+)"/.exec(svg)[1];
   const cuerpo = svg
     .replace(/^[\s\S]*?<svg [^>]*>/, "")

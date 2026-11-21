@@ -4,7 +4,8 @@
   "type": "module",
   "description": "Scripts para generar las capturas SVG (vectoriales) de los README",
   "scripts": {
-    "capturas": "node capturar.mjs"
+    "capturas": "node capturar.mjs",
+    "hero-doble": "node capturar.mjs hero-doble.config.mjs"
   },
   "devDependencies": {
     "playwright-core": "^1.65.1"
